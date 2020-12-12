@@ -102,7 +102,7 @@ def reconstruct_path(came_from, current, draw):
         draw()
 
 
-def algorithm(draw, grid, start, end):
+def aStarAlgo(draw, grid, start, end):
     count = 0
     open_set = PriorityQueue()
     open_set.put((0, count, start))
@@ -234,7 +234,7 @@ def main(win, width):
                         for spot in row:
                             spot.update_neighbors(grid)
 
-                    algorithm(lambda: draw(win, grid, ROWS, width), grid, start, end)
+                    aStarAlgo(lambda: draw(win, grid, ROWS, width), grid, start, end)
 
                 if event.key == pygame.K_c:
                     start = None
