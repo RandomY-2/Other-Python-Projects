@@ -1,5 +1,7 @@
 # Python-GUI-Games
 
+[中文版](https://github.com/RandomY-2/Python-GUI-Games/blob/main/README_CHN.md)
+
 This repository contains various interactive Python GUI games/programs involving interesting algorithms. Currently, the repository has the following games/programs:
 * [Minimax Tic-Tac-Toe](https://github.com/RandomY-2/Python-GUI-Games/tree/main/TicTacToe):
   * A Tic-Tac-Toe game created using Python's Tkinter interface. 
