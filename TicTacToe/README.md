@@ -14,7 +14,7 @@ can lead to best game result (win > tie > lose).
 ## A View of the game:
 
 <p align="left">
-  <img width="200" height="300" src="https://github.com/RandomY-2/Python-GUI-Games/blob/main/TicTacToe/images/GameImage.jpg">
-  <img width="200" height="300" src="https://github.com/RandomY-2/Python-GUI-Games/blob/main/TicTacToe/images/Warning_cheating.jpg">
-  <img width="200" height="300" src="https://github.com/RandomY-2/Python-GUI-Games/blob/main/TicTacToe/images/Wining.jpg">
+  <img width="300" height="500" src="https://github.com/RandomY-2/Python-GUI-Games/blob/main/TicTacToe/images/GameImage.jpg">
+  <img width="300" height="500" src="https://github.com/RandomY-2/Python-GUI-Games/blob/main/TicTacToe/images/Warning_cheating.jpg">
+  <img width="300" height="500" src="https://github.com/RandomY-2/Python-GUI-Games/blob/main/TicTacToe/images/Wining.jpg">
 </p>
