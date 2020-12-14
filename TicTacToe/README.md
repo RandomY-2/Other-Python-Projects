@@ -1,5 +1,8 @@
 ## Minimax Tic Tac Toe 
 
+[中文版](https://github.com/RandomY-2/Python-GUI-Games/blob/main/TicTacToe/README_CHN.md)
+
+
 ## Description 
 This game is created using Tkinder interface and the minimax algorithm. Once the user compiles and runs the python file, a GUI with the tic tac toe board will be displayed
 and the user can play Tic Tac Toe with the computer. The user will go first and use X, and the computer will use O. Once the result is determined, a dialog will pop up to 
@@ -13,6 +16,8 @@ can lead to best game result (win > tie > lose).
 
 ## A View of the game:
 
-<p align="center">
-  <img width="500" height="700" src="https://github.com/RandomY-2/Python-GUI-Games/blob/main/TicTacToe/GameImage.jpg">
+<p align="left">
+  <img width="300" height="500" src="https://github.com/RandomY-2/Python-GUI-Games/blob/main/TicTacToe/images/GameImage.jpg">
+  <img width="300" height="500" src="https://github.com/RandomY-2/Python-GUI-Games/blob/main/TicTacToe/images/Warning_cheating.jpg">
+  <img width="300" height="500" src="https://github.com/RandomY-2/Python-GUI-Games/blob/main/TicTacToe/images/Wining.jpg">
 </p>
