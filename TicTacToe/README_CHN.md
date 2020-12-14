@@ -7,13 +7,9 @@
 
 ## Minimax 算法
 Minimax算法又名极小化极大算法，是一种找出失败的最大可能性中的最小值的算法。程序将会假设对手每一步都会进行对对方最优的策略（即对我方价值最小的格局）。因此Minimax会让程序选择那些对方
-所能达到的让我方最差情况中最好的，也就是让对方在完美决策下所对我造成的损失最小
+所能达到的让我方最差情况中最好的，也就是让对方在完美决策下所对我造成的损失最小的策略（最终结果为我方赢 > 平局 > 对方赢）。
 
-is a recursive backtracking algorithm that is used in game theory to find the most optimal move. The algorithm assumes that the opponent always plays most optimally, 
-and the algorithm will find what action leads to the best outcome in this sense. For this game, the minimax algorithm is implemented so that the program will play the move that
-can lead to best game result (win > tie > lose).
-
-## A View of the game:
+## 游戏画面
 
 <p align="left">
   <img width="300" height="500" src="https://github.com/RandomY-2/Python-GUI-Games/blob/main/TicTacToe/images/GameImage.jpg">
