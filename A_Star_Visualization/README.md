@@ -1,6 +1,6 @@
 ## A* Shortest Path Visualization
 
-[中文版]()
+[中文版](https://github.com/RandomY-2/Python-GUI-Games/blob/main/A_Star_Visualization/README_CHN.md)
 
 
 ## Description 
