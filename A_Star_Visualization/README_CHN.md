@@ -1,24 +1,16 @@
 ## A* 最短路径可视化
 
 ## 介绍 
-这个程序通过一个由Pygame模组创建的GUI展示了A*算法如何找到周围有障碍物的两点之间的最短路径。使用者可以通过鼠标左键选择起点和重点和地图上的障碍物。起点将会被标记成橙色，终点会被标记成蓝色
-，而障碍会被标记成黑色。当使用者按下空格，这个程序就会开始A*算法的模拟并实时将模拟展现在GUI上。
+这个程序通过一个由Pygame模组创建的GUI展示了A-Star算法如何找到周围有障碍物的两点之间的最短路径。使用者可以通过鼠标左键选择起点和重点和地图上的障碍物。起点将会被标记成橙色，终点会被标记成蓝色，而障碍会被标记成黑色。当使用者完成这些标记并按下空格，这个程序就会开始A-Star算法的模拟并实时将模拟展现在GUI上。
 
-This program illustrates how A* algorithm finds the shortest path between two points. The user can select the start and end points and can create the barriers on the map. Then, 
-when the user presses space, A* algorithm will run and the GUI will show how it is finding the path between the two points while taking the barriers into consideration. The first 
-point user clicks will be the start point, which is marked orange, and the second point clicked is the end point, which is marked blue. Then the user can create barriers that 
-are colored black. Finally, the user can hit space to see how A* finds the shortest path.
+## A* 最短路径算法
+A* 算法是一种常用的路径查找和图形遍历算法。它有较好的性能和准确度。和其他比如BFS和DFS这样的遍历算法不同的A* 在每个搜索结点往下选择下一步结点时，可以通过一个启发函数来进行选择，选择代价最少的结点作为下一步搜索结点并跳转其上
 
-## A* Shortest Path Finding Algorithm
-A* searching algorithm is an advanced path finding algorithm which knows the general direction it should be looking toward when finding the shortest path between two points. This
-allows the algorithm to find the path quicker than other traversing algorithms like BFS or DFS or even dijkstra.
+这个思想是程序通过给每一个可以访问的节点一个**F**数值来进行操控的。每次程序都会访问可访问的**F**值最小的节点。而**F**数值则等于另外两个变量**G**和**H**的和。**G**和**H**的值是这么定义的：
+  - **G** 是从起点通过生成的步骤移动到当前节点的cost
+  - **H** 是从当前节点移动到重点的cost（一般是通过距离公式估算得出的）
 
-What A* does is that during each visit, the algorithm picks a node that has the lowest **F** value, which equals to the sum of another two values - **G** and **H**. The **G** and 
-**H** values are determined as follows:
-  - **G** is the cost to move from the start point to the current location following the path generated to get there. 
-  - **H** is the cost to move from the current location to the final destination. (Most of the time this is really just a smart guess)
-
-## A View of the program:
+## 运行画面:
 
 <p align="center">
   <img width="700" height="800" src="https://github.com/RandomY-2/Python-GUI-Games/blob/main/A_Star_Visualization/images/sample.jpg">
